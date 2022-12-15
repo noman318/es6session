@@ -21,5 +21,10 @@ let arrc1 = [2, 3, 4, 5];
 let arrc3 = [2, 3, 4, 5];
 let arrc2 = [...arrc1, 8, 9, ...arrc3, 67];
 
-console.log(arrc2);
-console.log(arrc1);
+// console.log(arrc2);
+// console.log(arrc1);
+// convert an object into an array
+// let arrayLike = { 0: 1, 1: 2, 2: 3, 3: 7, 4: 8, length: 5 };
+// let newArray = Array.from(arrayLike);
+
+// console.log(newArray); // [1,2,3]
