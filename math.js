@@ -12,7 +12,9 @@ console.log(Number.MAX_SAFE_INTEGER);
 console.log(Number.MIN_SAFE_INTEGER);
 // console.log(Number.isInteger(9));
 // console.log(Number.isInteger(9.89)); // it's a floating point value
-console.log(Number.isSafeInteger(90));
-console.log(Number.isSafeInteger(9070790897809075976367893270878527));
+// console.log(Number.isSafeInteger(90));
+console.log(Number.EPSILON);
+// The Number.EPSILON property represents the difference between 1 and the smallest floating point number greater than 1.
+// console.log(Number.isSafeInteger(9070790897809075976367893270878527));
 // Safe integers are all integers from -(2^53 - 1) to +(2^53 - 1).
 // This is safe: 9007199254740991. This is not safe: 9007199254740992.
